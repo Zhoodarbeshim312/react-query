@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     .card {
       padding: 20px;
@@ -12,7 +13,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 300px;
+      width: 200px;
       img {
         width: 100%;
       }
